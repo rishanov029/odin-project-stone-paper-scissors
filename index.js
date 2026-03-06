@@ -38,6 +38,7 @@ function playGame(playerChoice){
             break;
         }
     }
+    
 
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
